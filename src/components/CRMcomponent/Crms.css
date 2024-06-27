@@ -1,0 +1,88 @@
+.month-container{
+    position: absolute;
+    top: 6rem; 
+    
+}
+
+.crm-container{
+    position: relative;
+    ;
+}
+.total-crm-container{
+    
+    width: 100%
+}
+.btn-group{
+    height: 50%;
+}
+.btncrm{
+    font-size:2em ;
+
+    width:-webkit-fill-available;
+    height: 10rem;
+    display: block;
+    margin: 0rem auto;
+    background-color: white;
+    /* border: rgb(89, 86, 86) 0.5px  solid; */
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btncrm:focus,.btncrm:hover{
+    background-color: rgba(148, 145, 145, 0.24);
+    color: black;
+}
+.yearbtn{
+    margin: 0 auto;
+    width: 20%;
+    height: 3rem;
+    font: 1.5em sans-serif ;
+    background-color: white;
+    border: none;
+    
+}
+
+.monthdiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin: 0px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.btncrm:nth-child(2n){
+    background-color: rgb(213, 203, 203);
+}
+.btncrm:hover:nth-child(2n){
+    background-color: rgba(142, 139, 139, 0.449);
+}
+@media (max-width:480px) {
+    .btncrm{
+        font-size:9px;
+
+        width: -webkit-fill-available;
+        height: 3rem;
+    }
+
+    
+    .total-crm-container{
+        
+        width: fit-content;
+    }
+    .card-div{
+        padding: 0px!important;
+        margin: 10px!important;
+    }
+    .logo-height{
+        font-size: 10px!important;
+    }
+    .monthdiv{
+        grid-template-columns: repeat(3, 1fr)!important;
+        
+    }
+    .yearbtn{
+        font-size: 20px;
+        filter: none!important;
+    }
+}

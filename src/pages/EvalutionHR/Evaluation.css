@@ -1,0 +1,15 @@
+    .height{
+        margin:  8rem 0!important;
+        
+    }
+    @media print{
+        .print *:not(){
+            display: none;
+        }
+        .print *{
+            visibility: visible;
+            color: inherit;
+            display: block;
+        }
+       
+    }

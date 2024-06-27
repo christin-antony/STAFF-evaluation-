@@ -1,0 +1,24 @@
+/* / print.css / */
+@media print {
+  body * {
+    visibility: hidden;
+    color: red;
+  }
+  #dataTable, #dataTable * {
+    visibility: visible;
+  }
+  #dataTable {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+ 
+}
+.mt{
+  margin-top: 150px;
+}
+@media (max-width:991px) {
+  .mt{
+    margin-top: 50px;
+  }
+}

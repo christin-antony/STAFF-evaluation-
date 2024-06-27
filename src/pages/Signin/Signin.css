@@ -1,0 +1,15 @@
+.galtech-logo {
+    width: 170px;
+    display: block;
+    margin: auto;
+    padding-bottom: 0.9rem;
+}
+
+.wrapper {
+    background-image: url(https://i0.wp.com/buckscountycleaning.com/wp-content/uploads/2017/08/Grey-Texture-Background-and-Wallpaper-22.jpg?fit=750%2C469&ssl=1);
+    background-size: cover;
+}
+.height{
+    margin:  8rem 0!important;
+    
+}

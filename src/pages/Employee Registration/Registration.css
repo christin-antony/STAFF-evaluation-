@@ -1,0 +1,13 @@
+.pageNums {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media print {
+  .regDataTableData {
+    width: 95% !important;
+    margin: auto;
+    margin-top: 3rem;
+  }
+}

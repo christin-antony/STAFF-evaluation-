@@ -1,0 +1,46 @@
+.header-colors-indicators .indicator {
+  width:45px;
+  height: 45px;
+  border-radius: 20%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  
+
+  
+}
+
+.header-colors-indicators .selected {
+  border-color: transparent;
+}
+
+
+.headercolor1 { background-color: #0d6efd; }
+.headercolor2 { background-color: #343a40; }
+.headercolor3 { background-color: #f41127; }
+.headercolor4 { background-color: #198754; }
+.headercolor5 { background-color: #6f42c1; }
+.headercolor6 { background-color: #795548; }
+.headercolor7 { background-color: #e83e8c; }
+.headercolor8 { background-color: #ffb207; }
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-icon {
+  display: inline-block;
+  animation: rotate 2s linear infinite;
+  color: aliceblue;
+  margin-bottom: 6px;
+}
+
+.switcher-wrapper {
+  z-index: 1000;
+}
+

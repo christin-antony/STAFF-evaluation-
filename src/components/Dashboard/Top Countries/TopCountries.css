@@ -1,0 +1,27 @@
+.dashboard-top-countries {
+    overflow-y: auto;
+    position: relative;
+}
+
+.dashboard-top-countries .ps__rail-y {
+    width: 0; /* Hide the rail */
+    opacity: 0; /* Hide scrollbar by default */
+    transition: opacity 0.2s ease-in-out, width 0s; /* Add width transition */
+}
+
+/* .dashboard-top-countries:hover .ps__rail-y {
+    opacity: 1; /* Show scrollbar on hover 
+} */
+
+/* .dashboard-top-countries .ps__thumb-y {
+    background-color: #aaa;
+    border-radius: 10px;
+} */
+
+/* Customize scrollbar track */
+/* .dashboard-top-countries .ps__rail-y {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+} */
+
+

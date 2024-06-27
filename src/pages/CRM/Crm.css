@@ -1,0 +1,9 @@
+body{
+    height: 100vh;
+}
+.crm-main-container{
+    margin-top: 100px;
+}
+/* .card-body{
+    filter:drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.441));
+} */

@@ -1,0 +1,17 @@
+/* #SvgjsLine2478, #SvgjsLine2479, #SvgjsLine2480, #SvgjsLine2481, #SvgjsLine2482 {
+    stroke: none !important;
+    color: yellow !important;
+  }
+
+#SvgjsG3236 > line {
+    stroke: 0 !important;
+    color: yellow !important;
+}
+
+.BS {
+    background-color: yellow !important;
+} */
+
+.dropdown-toggle.dropdown-toggle-nocaret.toggle1::after {
+    display: none !important;
+}

@@ -1,0 +1,22 @@
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Apply the animation to the icon */
+  .rotating-icon {
+    display: inline-block;
+    animation: rotate 2s linear infinite;
+  }
+  
+  /* Optionally style the icon container */
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
